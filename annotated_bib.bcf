@@ -2810,18 +2810,13 @@
     <bcf:citekey order="17">ling11</bcf:citekey>
     <bcf:citekey order="18">doring09</bcf:citekey>
     <bcf:citekey order="19">doring09</bcf:citekey>
-    <bcf:citekey order="20">hinds02</bcf:citekey>
-    <bcf:citekey order="21">walther02</bcf:citekey>
-    <bcf:citekey order="22">walther02</bcf:citekey>
-    <bcf:citekey order="23">walther95</bcf:citekey>
-    <bcf:citekey order="24">doring09</bcf:citekey>
-    <bcf:citekey order="25">tyler03</bcf:citekey>
-    <bcf:citekey order="26">kalman11</bcf:citekey>
-    <bcf:citekey order="27">tu18</bcf:citekey>
-    <bcf:citekey order="28">kalman13</bcf:citekey>
-    <bcf:citekey order="29">ling11</bcf:citekey>
-    <bcf:citekey order="30">hinds02</bcf:citekey>
-    <bcf:citekey order="31">walther02</bcf:citekey>
+    <bcf:citekey order="20">walther95</bcf:citekey>
+    <bcf:citekey order="21">doring09</bcf:citekey>
+    <bcf:citekey order="22">tyler03</bcf:citekey>
+    <bcf:citekey order="23">kalman11</bcf:citekey>
+    <bcf:citekey order="24">tu18</bcf:citekey>
+    <bcf:citekey order="25">kalman13</bcf:citekey>
+    <bcf:citekey order="26">ling11</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
