@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.2.27)  27 FEB 2022 15:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.2.27)  27 FEB 2022 18:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -688,34 +688,38 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 74.
 (c:/Users/sean1/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 90.
+(c:/Users/sean1/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 78.
+(Font)              <10> on input line 102.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 78.
+(Font)              <7> on input line 102.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 78.
+(Font)              <5> on input line 102.
 [1
 
-{c:/Users/sean1/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./annotated_bib.aux)
+{c:/Users/sean1/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (./annotated_bib.aux)
 Package rerunfilecheck Info: File `annotated_bib.out' has not changed.
-(rerunfilecheck)             Checksum: 2F98D4C3CD6E9C49096EF03ADAED2F78;94.
+(rerunfilecheck)             Checksum: C15D31A162E43CB0E024FA977AD10647;259.
 Package logreq Info: Writing requests to 'annotated_bib.run.xml'.
 \openout1 = `annotated_bib.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18595 strings out of 480236
- 326835 string characters out of 5894214
- 1098075 words of memory out of 5000000
- 36312 multiletter control sequences out of 15000+600000
- 515812 words of font info for 66 fonts, out of 8000000 for 9000
+ 18733 strings out of 480236
+ 330358 string characters out of 5894214
+ 1110552 words of memory out of 5000000
+ 36425 multiletter control sequences out of 15000+600000
+ 523443 words of font info for 69 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,5n,68p,1026b,5035s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/Users/sean1/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<c:/Users/sean1/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/Users/sean1/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/Users/sean1/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/Users/sean1/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb>
-Output written on annotated_bib.pdf (1 page, 97582 bytes).
+ 60i,6n,68p,1742b,5035s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/Users/sean1/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/Users/sean1/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}<c:/Users/sean1/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/Users/sean1/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/Users/sean1/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb><c:/Users/sean1/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/Users/sean1/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/Users/sean1/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb>
+Output written on annotated_bib.pdf (2 pages, 173381 bytes).
 PDF statistics:
- 45 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 500000)
- 9 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 97 PDF objects out of 1000 (max. 8388607)
+ 79 compressed objects within 1 object stream
+ 17 named destinations out of 1000 (max. 500000)
+ 17 words of extra memory for PDF output out of 10000 (max. 10000000)
 

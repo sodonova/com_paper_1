@@ -25,13 +25,14 @@ header-includes:
 
 I'm knitting to pdf with MikTex. Future me: download MikTex if you're coming back
 to latex/etc, it makes it so much easier. I'm using header-includes to specify
-apa, but that's kind of an ugly hack. For some reason Rmd/Latex has trouble with
+apa the right way. For some reason Rmd/Latex has trouble with
 spaces and underscores in filenames, I think because it has to escape stuff for
 R and for LaTex? Anyway, just use camelCase and *remember to escape backslashes
 if you're using an absolute path on windows*. 
 
 Rmd [docs](https://bookdown.org/yihui/rmarkdown-cookbook/bibliography.html) were
-incredibly useful.
+incredibly useful. Help with using biblatex style without access to the usepackage
+statement [here](https://tex.stackexchange.com/questions/264096/set-biblatex-options-after-loading).
 
 I've avoided messing with csl files, biblatex is handling everything here.
 

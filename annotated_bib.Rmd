@@ -1,12 +1,13 @@
 ---
 title: "Annotated Bibliography"
-output: 
-  pdf_document: 
+output:
+  pdf_document:
     keep_tex: yes
-    pandoc_args: ["--biblatex"]
+    pandoc_args: --biblatex
+  html_document:
+    df_print: paged
 bibliography: comPaper1References.bib
-header-includes:
-  - \PassOptionsToPackage{style=apa}{biblatex}
+header-includes: \PassOptionsToPackage{style=apa}{biblatex}
 ---
 
 ```{r setup, include=FALSE}
@@ -15,6 +16,73 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Chronemics
 
-@walther95
-\fullcite{walther95}
+One problem I'm running into is that there isn't very much
+research on this. The research that is out there specifies
+work/team communication or dating relationships; online dating
+has many papers. 
+
+What I want to study is more generally what the nonverbal cues
+used in today's "CMC" or "IM" are. Chronemics is really
+interesting, but I'm not sure if there's enough there for 5-7
+pages. Some of the larger questions I'm interested in are:
+
+- Can software developers mine data about quality
+of conversation from simple timestamps?
+- Do romantic partners have
+different norms for speed of response?
+- Is there some kind of
+pacing effect based on word count of response? 
+- How long does a
+normal person take to respond to an email? a text? 
+- Is there an
+effect when technology nags you to respond?
+
+**\fullcite{walther95}**
+
+Useful for sure. Unfortunately doesn't establish much, but for 95 
+it's pretty incredible. Mostly just that nighttime and 
+daytime have different effects on communication, and that when
+the message is responded to changes how both parties are viewed.
+
+**\fullcite{doring09}**
+
+Cites @walther95, I think it's cited by quite a few papers below as well. A
+little hard to keep track of because it's inside a book. 
+
+**\fullcite{tyler03}**
+
+Cited by @kalman11 below, but doesn't cite Walther. Talks about the expectation
+of a response by a certain time. Extremely small sample size and uses interviews.
+
+**\fullcite{kalman11}**
+
+Cites @walther95. About recruiting/job candidates.
+
+**\fullcite{tu18}**
+
+Cites @walther95 a couple times, similar stuff covered. About dating
+relationships.
+
+**\fullcite{kalman13}**
+
+Really interesting!! Cites @walther95. About generalized chronemics and the
+causal relationship between personality and pacing of conversations.
+
+
+## Purdue Library wishlist
+
+\fullcite{ling11} 
+
+For @doring09 mostly. 
+
+\fullcite{hinds02}
+
+For @walther02. Can't read it so idk whether it's useful or not.
+
+
+
+
+
+
+
 
