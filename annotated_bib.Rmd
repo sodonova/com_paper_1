@@ -1,0 +1,20 @@
+---
+title: "Annotated Bibliography"
+output: 
+  pdf_document: 
+    keep_tex: yes
+    pandoc_args: ["--biblatex"]
+bibliography: comPaper1References.bib
+header-includes:
+  - \PassOptionsToPackage{style=apa}{biblatex}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Chronemics
+
+@walther95
+\fullcite{walther95}
+
