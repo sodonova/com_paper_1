@@ -34,3 +34,7 @@ Rmd [docs](https://bookdown.org/yihui/rmarkdown-cookbook/bibliography.html) were
 incredibly useful.
 
 I've avoided messing with csl files, biblatex is handling everything here.
+
+To use overleaf, I found out you can add another remote, for example with
+`git remote add overleaf <url>` and (assuming it's bare) git pull it into your
+repo with `git pull overleaf master --allow-unrelated-histories`.
