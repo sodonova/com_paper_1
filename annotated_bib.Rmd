@@ -39,10 +39,17 @@ effect when technology nags you to respond?
 
 **\fullcite{walther95}**
 
-Useful for sure. Unfortunately doesn't establish much, but for 95 
-it's pretty incredible. Mostly just that nighttime and 
-daytime have different effects on communication, and that when
-the message is responded to changes how both parties are viewed.
+This is a landmark study from 1995 that establishes that chronemics matters in 
+Computer Mediated Communication (CMC). Previously, it was assumed that CMC was
+devoid of any nonverbal cues, the "cues-filtered-out" view. This was one of the first studies to notice that there are nonverbal, chronemic cues in CMC. It 
+found that altering time and date stamps changed the way external observers
+saw the communication. @walther95 validated two hypotheses and had complex results about another. First, it proved (their H2) that a social message sent at night
+signals less dominance than a social message sent in the day and that a task
+message sent at night is more dominant than a task message sent in the day.
+Second, it proved (their H3) that a slow reply to a social message indicates
+greater affection than a fast reply, but a slow reply to a task message 
+indicates less affection than a fast reply. 
+
 
 **\fullcite{doring09}**
 
