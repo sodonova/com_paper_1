@@ -10,9 +10,7 @@ bibliography: comPaper1References.bib
 header-includes: \PassOptionsToPackage{style=apa}{biblatex}
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+
 
 ## Chronemics
 
