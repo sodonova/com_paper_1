@@ -14,7 +14,6 @@ output:
   html_document:
     df_print: paged
 bibliography: comPaper1References.bib
-header-includes: \PassOptionsToPackage{style=apa}{biblatex}
 ---
 
 ```{r setup, include=FALSE}
@@ -27,7 +26,9 @@ When I communicate with others using computer mediated communication (instant me
 
 In interpersonal communication, this is called chronemics. The phenomenon I am choosing to investigate in this paper is chronemics in computer mediated communication. Given that people today are communicating with each other more than ever using social media and instant messaging, I think this topic is important to  understand. 
 
-To define this cmc chronemics clearly, I mean the frequency of communication, the pacing of the conversation itself (which is sometimes the same as the frequency of communication), and the time at which it takes place. My personal belief as I explore this topic is that chronemics communicate a lot in computer mediated communication, and to some extent take the place of nonverbal cues. Additionally, I think chronemics can be used to pull empirical data about relationships out of individual and aggregated conversations. This paper will begin by examining the way researchers have studied the existence of chronemics in cmc, and then discuss the ways researchers have been able to put chronemics to use.
+To define this cmc chronemics clearly, I mean the frequency of communication, the pacing of the conversation itself (which is sometimes the same as the frequency of communication), and the time at which it takes place. My personal belief as I explore this topic is that chronemics communicate a lot in computer mediated communication, and to some extent take the place of nonverbal cues. Additionally, I think chronemics can be used to pull empirical data about relationships out of individual and aggregated conversations. This paper will begin by examining the way researchers have studied the existence of chronemics in cmc, and then discuss the ways researchers have been able to put chronemics to use. 
+Researchers began to document the existence of chronemics
+in cmc in the 90s, and are still catching up to the pace of communication today.
 
 # Useful Theories
 
@@ -49,7 +50,7 @@ most
 people who have experienced cyberspace in any meaningful way would agree
 that this theory is seriously lacking. 
 
-The second theory to talk about is the social information processing
+The second theory to talk about is the social information processing (SIP)
 perspective. It claims that people are able to edit how they present
 themselves more, and people give each other the benefit of the doubt
 more in cyberspace. This means that there is an opportunity for even
@@ -58,11 +59,12 @@ It also claims that because people are missing normal cues, they
 fixate on what cues there are, such as writing style, written "nonverbals"
 like emojis, and other text cues like repeated letters. 
 
+<!--
 The next important theory to be aware of is social presence theory.
 Online social presence in this context is the appearance or perception of 
 a participant being a real person or being present in the conversation 
 in cmc [@cui13]. It's important to this paper because it is influenced by
-chronemics. 
+chronemics. -->
 
 # Describing CMC Chronemics Phenomena
 
@@ -70,6 +72,7 @@ The first and most important discovery by researchers about cmc chronemics
 was the acknowledgement that they exist and influence people's impression 
 of the conversation. This is the claim made by @walther95, in contrast to
 the previous view that cmc is impersonal and doesn't contain nonverbal cues.
+This was the first, most important paper which refuted cues-filtered-out theory.
 
 This was effectively replicated for sms by @doring09. 
 
@@ -86,7 +89,11 @@ that high-reward violaters. @kalman11 found a more complex interaction,
 although both studies agreed that the norm violation was perceived
 negatively. Part of that is the context, as both the studies were centered
 around work. That lines up with Walther's claims that task focused messages
-with high latencies were percieved negatively.
+with high latencies were percieved negatively. These studies validate SIP
+theory by suggesting that chronemics are a form of nonverbal communication
+that participants tend to read into; cues filtered out theory would expect
+participants to ignore or discount the chronemics because the 
+communication is happening in cyberspace. 
 
 # Chronemics Applications
 
@@ -104,6 +111,102 @@ correlated variables, which will be discussed later. First, there are
 some promising uses of chronemics, starting with an apparent correlation
 with personality type discovered by @kalman13.
 
+This study evaluates a measure called interpost pause. It builds on 
+the findings of @kalman11 and SIP theory by using chronemics as nonverbal
+cues that participants use in place of normal face to face cues. @kalman13
+found that people who were more extraverted "exhibited shorter interpost
+pauses," and that pairs who trusted each other less had longer interpost
+pauses (section 4.1 para 1). Interestingly, the correlation with trust was stronger than the 
+correlation with extraversion. 
+Unfortunately, it's hard to
+know why these two results exist. For trust, @kalman13 suggests it may
+come down to the assumption that lying is harder than telling the truth 
+(and therefore should take longer), but it may also be that people just
+prefer their conversation partner to respond quickly and the dislike of
+slow responses bleeds into their trust for the person.
+For extraversion, @kalman13 suggests this is mostly because extraverted people
+talk more and with less hesitation than intraverted people. Essentially,
+the same thing happens in face to face communication because that's just the way
+people are.
+To me, this is 
+incredible because it opens the possibility of
+studying those attributes with access to chat logs and without surveys
+which can be difficult to sample properly. For example, if Facebook wants
+to find out which of its users trust each other, it could conceivably
+make a computer model depending on interpost pause in messaging to
+find that out. Previously, they would have had to do a survey, then write
+a model comparing attributes in the survey to user attributes. Those 
+attributes may not have yielded any correlation at all. 
 
+The idea that interpost pause or measurable chronemics of any kind could be
+very useful is something that for some reason, I couldn't find many studies on.
+In particular, I was surprised I didn't see studies using it to weight
+relationships and generate tie strength measurements. Facebook and other social
+medias generally recommend "friends" or other social links algorithmically,
+and in order to do that, they usually need measures of a user's current
+relationships and their strengths. Link recommender systems
+for social media are incredibly important and profitable, and if you can
+generate better measures of relationships, you should get a better recommendation.
+First, we'll discuss some cases where chonemics were able to improve tie strength
+prediction.
+
+@arnaboldi13 is a good example of this. In particular, they use many, many 
+chronemic variables. The most effective were "number of days since last
+communication, the frequency of contact (bidirectional and related
+to incoming interactions) and the number of days since first communication" [@arnaboldi13 1137]. Recency of communication was a great
+predictor of tie strength, validating the idea that tie strength should
+be predicted by chronemics. Unfortunately, most researchers (like @servia-rodriguez14) only look at recency and duration of relationship. While
+this makes sense from a running time standpoint, it seems that interpost pause
+or time frame of most communication (like from @walther95) could be useful.
+
+Here we'll discuss studies by @marsden84 and @liberatore17 that may provide 
+an answer to why chronemics isn't used more. Tie strength measurements in social networks (in general rather than the cmc
+specific meaning) have existed for a long time. One study which provides an 
+example of that is @marsden84. It considers multiple variables for constructing
+tie strength in social networks. In particular, they consider measurements for 
+duration and frequency of contact, in face to face interaction. The most
+important part of the study is that they find issues with using duration and
+frequency of contact, because there are so many confounding variables with those
+two measures. One example they discuss is neighbors - you may see your neighbor
+every day, and be dragged into an hour long conversation with them every day, 
+and still dislike them or feel indifferent towards them. I think this type of 
+confounding tends to make researchers apprehensive when they consider attempting
+studies like Kalman et al's 2013 study. There are other explanations though.
+
+One can be found in @liberatore17, in which a meta-study is conducted on
+the different ways to generate
+tie strength in cmc social networks. This is the measurement that I would expect
+to see chronemics factor into. The study does consider chronemics with one
+measure: Duration (of relationship). Unfortunately, many of the approaches don't
+really consider chronemics outside of that factor. One of the reasons may be the
+difficulty of generating the data for every user; the studies which did include
+chronemics of individual pair conversations typically used a lot of variables, 
+and still didn't consider interpost pause. Unfortunately, the more variables 
+used to generate tie strength, the worse the model can be to use,
+because the model can risk over fitting the data and being quite slow
+and expensive to use. In particular, if Facebook wants to generate tie
+strengths for their
+entire network, it will prefer models that are simpler because they take less
+computation time and are more reliable.
+
+That said, it's pretty odd to ignore nonverbal cues when researchers
+try to predict the strength of a relationship in cmc. When meeting a pair
+of people in real life, some of the first things anyone will
+look at to understand their relationship are the nonverbal cues in the
+conversation. Obviously in real life we can just ask, but Facebook won't
+ask every user to rate every friend in their account.
 
 # Conclusion
+
+To look ahead a bit, this research suggests that there is an opportunity to try
+and predict tie strength with interpost pause and aggregate time of messaging.
+There is also a possibility that this has been done already, but that the 
+research isn't published. In any event, cmc definitely has influential nonverbal
+cues in the form of chronemics.
+
+Researchers have refuted theories that cmc doesn't have chronemic nonverbal cues.
+They have documented their existence and influence on conversations, and have used them
+to some extent, although there is still much to be exploited in terms of their
+use.
+
+
