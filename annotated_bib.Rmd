@@ -46,9 +46,12 @@ found that altering time and date stamps changed the way external observers
 saw the communication. @walther95 validated two hypotheses and had complex results others. First, it proved (their H2) that a social message sent at night
 signals less dominance than a social message sent during the day and that a task
 message sent at night is more dominant than a task message sent during the day.
+This agrees with their assertion that "For instance, different
+parts of the day correspond to different activity contexts, and formal 'business
+hours' versus informal 'after hours' carry different expectations [30]" [@walther95 361].
 Second, it proved (their H3) that a slow reply to a social message indicates
 greater affection than a fast reply, but a slow reply to a task message 
-indicates less affection than a fast reply. 
+indicates less affection than a fast reply [@walther95 370]. 
 
 
 **\fullcite{doring09}**
