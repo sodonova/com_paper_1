@@ -1,19 +1,27 @@
 ---
 title: "Annotated Bibliography"
+author: Sean F. O'Donovan
+documentclass: apa7
+classoption:
+  - stu
 output:
   pdf_document:
     keep_tex: yes
+    template: "template.tex"
     pandoc_args: --biblatex
+    include:
+      in_header: preamble.tex
   html_document:
     df_print: paged
 bibliography: comPaper1References.bib
-header-includes: \PassOptionsToPackage{style=apa}{biblatex}
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+
+<!--
 ## Chronemics
 
 One problem I'm running into is that there isn't very much
@@ -36,24 +44,125 @@ pacing effect based on word count of response?
 normal person take to respond to an email? a text? 
 - Is there an
 effect when technology nags you to respond?
+-->
+\noindent
+\hangindent=7ex
+\fullcite{walther95}
 
-**\fullcite{walther95}**
 
 This is a landmark study from 1995 that establishes that chronemics matters in 
 Computer Mediated Communication (CMC). Previously, it was assumed that CMC was
-devoid of any nonverbal cues, the "cues-filtered-out" view. This was one of the first studies to notice that there are nonverbal, chronemic cues in CMC. It 
-found that altering time and date stamps changed the way external observers
-saw the communication. @walther95 validated two hypotheses and had complex results others. First, it proved (their H2) that a social message sent at night
+devoid of any nonverbal cues, the "cues-filtered-out" view. This is one of the first studies to notice that there are nonverbal, chronemic cues in CMC. It 
+finds that altering time and date stamps changes the way external observers
+see the communication. @walther95 validates two hypotheses and has complex results for others. First, it proves (their H2) that a social message sent at night
 signals less dominance than a social message sent during the day and that a task
 message sent at night is more dominant than a task message sent during the day.
-This agrees with their assertion that "For instance, different
+This suggests that even in cmc, "different
 parts of the day correspond to different activity contexts, and formal 'business
 hours' versus informal 'after hours' carry different expectations [30]" [@walther95 361].
-Second, it proved (their H3) that a slow reply to a social message indicates
+Second, it proves (their H3) that a slow reply to a social message indicates
 greater affection than a fast reply, but a slow reply to a task message 
-indicates less affection than a fast reply [@walther95 370]. 
+indicates less affection than a fast reply [@walther95 370]. Not all of their
+results yielded simple results.
+
+They had two other hypotheses, which weren't simply proven or 
+disproven, but had complex interactions.
+The first, their H1, expects that a nighttime social message would be more
+affectionate than a daytime social message, and that a daytime task message
+would be more affectionate than a nighttime task message. The task message is
+indeed recieved as more affectionate or positive when sent in daytime [@walther95 368], but the social message's perception is interfered with by the reply speed.
+The researchers didn't expect the reply to affect perception of the first message
+sent, but when someone replied quickly to a social message sent at night, the 
+first social message (not the reply) is seen as less affectionate.
+The second complex finding (on their H4) is that a faster response suggest a 
+more equal footing between participants, rather than suggesting that the replier
+is less dominant than the sender [@walther95 371].
+
+\noindent
+\hangindent=7ex
+\fullcite{kalman11}
+
+@kalman11 cites @walther95 and describes cmc message latency in terms of 
+expectation violation theory. @kalman11 set up an experiment where
+managers ranked job applicants based on "vignettes" (p. 1) which included
+chronemic information. @kalman11 found a complex interaction. 
+For low valued applicants, the latency of the message did not change much about
+the managers' assessment of them, but for high valued applicants, a high
+latency was percieved negatively and changed the managers' appraisal of their
+application.
+
+That lines up with Walther's claims that task focused messages
+with high latencies were perceived negatively. This study also discusses that
+cues-filtered-out theory doesn't account for this effect, as @walther95 explains.
+
+If there's anything problematic about this study, it is probably that it isn't
+very ambitious. @kalman11 had hypotheses: 
+
+> Hypothesis 1: An e-mail response latency of 1 day will be more expected and will
+lead to more positive evaluations of the responder than the longer response 
+latency of 2 weeks or no response at all.
+
+> Hypothesis 2: The effect of e-mail response latency on perceptions of the responder 
+will be moderated by candidate reward valence. (p. 59)
+
+\noindent These aren't exactly exciting, but this is the kind of groundwork that's needed
+to get the exciting results of @kalman13 below.
+
+<!--
+**\fullcite{kalman05}**
+
+The next important phenomenon documented by researchers is that of online
+silence. This study examines the response times for emails.
+@kalman05 cites @walther95 and many other papers to establish the ideas
+that chronemics are important and exist in cmc. Unfortunately despite the
+similarity in subject area, @kalman05 doesn't cite Walther all that much. It
+isn't clear why, as there are plenty of opportunities to do so. One
+explanation for this is that initially, there was a need to disprove the idea
+that chronemics and non-verbals in general weren't relevant in cmc, but once
+there is an understanding that chronemics is influential there is a reason
+to study chronemic phenomenon. 
+
+The idea that even in asynchronous communications, it is possible
+for silence to exist was documented by @kalman05. They
+explain that "silence can be defined as no response after an x period of time, at which, say, 99% or 97% of the responses have already been created" [@kalman05 8]. @kalman05 also explains that the silence generated there can have
+major disruptive effects on online communication, from interfering with 
+team collaboration, to creating misunderstandings.
+
+@kalman05 used the Enron dataset to observe these chronemic behaviors without
+study subjects being aware that they were being observed, which is an interesting
+and fruitful. As the researchers acknowledge, this kind of large scale and
+"unobtrusive" study is difficult to do at all, and harder to do while respecting
+privacy, so it's a surprising and advantagous that they were able to conduct such
+a study.
+-->
+
+\noindent
+\hangindent=7ex
+\fullcite{kalman13}
+
+This study evaluates a measure called interpost pause. It builds on 
+the findings of @kalman11 and SIP theory by using chronemics as nonverbal
+cues that participants use in place of normal face to face cues. @kalman13
+found that people who were more extraverted "exhibited shorter interpost
+pauses," and that pairs who trusted each other less had longer interpost
+pauses (p. 16). Interestingly, the correlation with trust was stronger than the 
+correlation with extraversion. 
+
+Unfortunately, it's hard to
+know why these two results exist. For trust, @kalman13 suggests it may
+come down to the assumption that lying is harder than telling the truth 
+(and therefore should take longer), but it may also be that people just
+prefer their conversation partner to respond quickly and the dislike of
+slow responses bleeds into their trust for the person.
+For extraversion, @kalman13 suggests this is mostly because extraverted people
+talk more and with less hesitation than intraverted people. Essentially,
+the same thing happens in face to face communication because that's just the way
+people are.
 
 
+
+
+<!--
 **\fullcite{doring09}**
 
 Cites @walther95, I think it's cited by quite a few papers below as well. A
@@ -87,7 +196,7 @@ causal relationship between personality and pacing of conversations.
 \fullcite{ling11} 
 
 For @doring09 mostly. 
-
+-->
 
 
 

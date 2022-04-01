@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.3.21)  31 MAR 2022 12:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.3.21)  31 MAR 2022 23:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1020,11 +1020,14 @@ Package biblatex Info: Reference section=0 on input line 82.
 Package biblatex Info: Reference segment=0 on input line 82.
 [1{c:/Users/sean1/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-] [2]
-Underfull \vbox (badness 1430) has occurred while \output is active []
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[2]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [3]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1221) has occurred while \output is active []
 
 [4]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1032,43 +1035,46 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [5] [6]
 Underfull \vbox (badness 4752) has occurred while \output is active []
 
-[7] [8]
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 316.
+[7]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[8] [9]
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 352.
 (c:/Users/sean1/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 316.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 352.
 (c:/Users/sean1/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 316.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 352.
 (c:/Users/sean1/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 316.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 352.
 (c:/Users/sean1/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 316.
+(Font)              <12> on input line 352.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 316.
+(Font)              <8> on input line 352.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 316.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 316.
+(Font)              <6> on input line 352.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 352.
 (c:/Users/sean1/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (c:/Users/sean1/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 316.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 352.
 (c:/Users/sean1/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (c:/Users/sean1/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-) [9
+) [10
 
-] AED endfloat: Processing end Figures and Tables [10] (./Paper.aux)
+] AED endfloat: Processing end Figures and Tables [11] (./Paper.aux)
 Package rerunfilecheck Info: File `Paper.out' has not changed.
 (rerunfilecheck)             Checksum: 674761DAB39E76FF753B04DB7BB3E244;710.
 Package logreq Info: Writing requests to 'Paper.run.xml'.
@@ -1076,18 +1082,18 @@ Package logreq Info: Writing requests to 'Paper.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33307 strings out of 480236
- 641902 string characters out of 5894214
- 1402003 words of memory out of 5000000
- 50620 multiletter control sequences out of 15000+600000
- 506418 words of font info for 95 fonts, out of 8000000 for 9000
+ 33357 strings out of 480236
+ 642818 string characters out of 5894214
+ 1402224 words of memory out of 5000000
+ 50662 multiletter control sequences out of 15000+600000
+ 506509 words of font info for 96 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  99i,11n,103p,1503b,5033s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/sean1/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<c:/Users/sean1/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/Users/sean1/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/Users/sean1/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
-Output written on Paper.pdf (10 pages, 105470 bytes).
+Output written on Paper.pdf (11 pages, 109133 bytes).
 PDF statistics:
- 158 PDF objects out of 1000 (max. 8388607)
- 138 compressed objects within 2 object streams
- 36 named destinations out of 1000 (max. 500000)
+ 195 PDF objects out of 1000 (max. 8388607)
+ 174 compressed objects within 2 object streams
+ 39 named destinations out of 1000 (max. 500000)
  18485 words of extra memory for PDF output out of 20736 (max. 10000000)
 

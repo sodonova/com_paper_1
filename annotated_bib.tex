@@ -3,10 +3,34 @@
 \PassOptionsToPackage{hyphens}{url}
 %
 \documentclass[
-]{article}
+  stu]{apa7}
+%
+\PassOptionsToPackage{style=apa}{biblatex}
+%\PassOptionsToPackage{indent=7ex}{parskip}
+%\usepackage{indentfirst}
+%\usepackage[margin=1in]{geometry}
+%% right side page number
+%\usepackage{fancyhdr}
+%\fancypagestyle{plain}{
+%\fancyhf{}
+%\renewcommand{\headrulewidth}{0pt}
+%\fancyhead[R]{\thepage}
+%}
+%\pagestyle{fancy}
+%\fancyhf{}
+%\renewcommand{\headrulewidth}{0pt}
+%\fancyhead[R]{\thepage}
+%% double spacing
+%\usepackage{setspace}
+%\doublespacing
+\affiliation{Brian Lamb School of Communication}
+\course{COM 212: Interpersonal communication}
+\professor{Dr. Hayden Barber}
+\duedate{March 31, 2022}
+%
 \title{Annotated Bibliography}
-\author{}
-\date{\vspace{-2.5em}}
+\author{Sean F. O'Donovan}
+\date{}
 
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
@@ -41,28 +65,14 @@
 \IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \hypersetup{
   pdftitle={Annotated Bibliography},
+  pdfauthor={Sean F. O'Donovan},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 \urlstyle{same} % disable monospaced font for URLs
-\usepackage[margin=1in]{geometry}
-\usepackage{graphicx}
-\makeatletter
-\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
-\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
-\makeatother
-% Scale images if necessary, so that they will not overflow the page
-% margins by default, and it is still possible to overwrite the defaults
-% using explicit options in \includegraphics[width, height, ...]{}
-\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
-% Set default figure placement to htbp
-\makeatletter
-\def\fps@figure{htbp}
-\makeatother
 \setlength{\emergencystretch}{3em} % prevent overfull lines
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \setcounter{secnumdepth}{-\maxdimen} % remove section numbering
-\PassOptionsToPackage{style=apa}{biblatex}
 \ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
@@ -72,89 +82,98 @@
 \begin{document}
 \maketitle
 
-\hypertarget{chronemics}{%
-\subsection{Chronemics}\label{chronemics}}
-
-One problem I'm running into is that there isn't very much research on
-this. The research that is out there specifies work/team communication
-or dating relationships; online dating has many papers.
-
-What I want to study is more generally what the nonverbal cues used in
-today's ``CMC'' or ``IM'' are. Chronemics is really interesting, but I'm
-not sure if there's enough there for 5-7 pages. Some of the larger
-questions I'm interested in are:
-
-\begin{itemize}
-\tightlist
-\item
-  Can software developers mine data about quality of conversation from
-  simple timestamps?
-\item
-  Do romantic partners have different norms for speed of response?
-\item
-  Is there some kind of pacing effect based on word count of response?
-\item
-  How long does a normal person take to respond to an email? a text?
-\item
-  Is there an effect when technology nags you to respond?
-\end{itemize}
-
-\textbf{\fullcite{walther95}}
+\noindent \hangindent=7ex \fullcite{walther95}
 
 This is a landmark study from 1995 that establishes that chronemics
 matters in Computer Mediated Communication (CMC). Previously, it was
 assumed that CMC was devoid of any nonverbal cues, the
-``cues-filtered-out'' view. This was one of the first studies to notice
-that there are nonverbal, chronemic cues in CMC. It found that altering
-time and date stamps changed the way external observers saw the
-communication. \textcite{walther95} validated two hypotheses and had
-complex results others. First, it proved (their H2) that a social
+``cues-filtered-out'' view. This is one of the first studies to notice
+that there are nonverbal, chronemic cues in CMC. It finds that altering
+time and date stamps changes the way external observers see the
+communication. \textcite{walther95} validates two hypotheses and has
+complex results for others. First, it proves (their H2) that a social
 message sent at night signals less dominance than a social message sent
 during the day and that a task message sent at night is more dominant
-than a task message sent during the day. This agrees with their
-assertion that ``For instance, different parts of the day correspond to
-different activity contexts, and formal `business hours' versus informal
-`after hours' carry different expectations {[}30{]}'' \autocite[
-361]{walther95}. Second, it proved (their H3) that a slow reply to a
-social message indicates greater affection than a fast reply, but a slow
-reply to a task message indicates less affection than a fast reply
-\autocite[ 370]{walther95}.
+than a task message sent during the day. This suggests that even in cmc,
+``different parts of the day correspond to different activity contexts,
+and formal `business hours' versus informal `after hours' carry
+different expectations {[}30{]}'' \autocite[ 361]{walther95}. Second, it
+proves (their H3) that a slow reply to a social message indicates
+greater affection than a fast reply, but a slow reply to a task message
+indicates less affection than a fast reply \autocite[ 370]{walther95}.
+Not all of their results yielded simple results.
 
-\textbf{\fullcite{doring09}}
+They had two other hypotheses, which weren't simply proven or disproven,
+but had complex interactions. The first, their H1, expects that a
+nighttime social message would be more affectionate than a daytime
+social message, and that a daytime task message would be more
+affectionate than a nighttime task message. The task message is indeed
+recieved as more affectionate or positive when sent in daytime
+\autocite[ 368]{walther95}, but the social message's perception is
+interfered with by the reply speed. The researchers didn't expect the
+reply to affect perception of the first message sent, but when someone
+replied quickly to a social message sent at night, the first social
+message (not the reply) is seen as less affectionate. The second complex
+finding (on their H4) is that a faster response suggest a more equal
+footing between participants, rather than suggesting that the replier is
+less dominant than the sender \autocite[ 371]{walther95}.
 
-Cites \textcite{walther95}, I think it's cited by quite a few papers
-below as well. A little hard to keep track of because it's inside a
-book.
+\noindent \hangindent=7ex \fullcite{kalman11}
 
-\textbf{\fullcite{tyler03}}
+\textcite{kalman11} cites \textcite{walther95} and describes cmc message
+latency in terms of expectation violation theory. \textcite{kalman11}
+set up an experiment where managers ranked job applicants based on
+``vignettes'' (p.~1) which included chronemic information.
+\textcite{kalman11} found a complex interaction. For low valued
+applicants, the latency of the message did not change much about the
+managers' assessment of them, but for high valued applicants, a high
+latency was percieved negatively and changed the managers' appraisal of
+their application.
 
-Cited by \textcite{kalman11} below, but doesn't cite Walther. Talks
-about the expectation of a response by a certain time. Extremely small
-sample size and uses interviews.
+That lines up with Walther's claims that task focused messages with high
+latencies were perceived negatively. This study also discusses that
+cues-filtered-out theory doesn't account for this effect, as
+\textcite{walther95} explains.
 
-\textbf{\fullcite{kalman11}}
+If there's anything problematic about this study, it is probably that it
+isn't very ambitious. \textcite{kalman11} had hypotheses:
 
-Cites \textcite{walther95}. About recruiting/job candidates.
+\begin{quote}
+Hypothesis 1: An e-mail response latency of 1 day will be more expected
+and will lead to more positive evaluations of the responder than the
+longer response latency of 2 weeks or no response at all.
+\end{quote}
 
-\textbf{\fullcite{tu18}}
+\begin{quote}
+Hypothesis 2: The effect of e-mail response latency on perceptions of
+the responder will be moderated by candidate reward valence. (p.~59)
+\end{quote}
 
-Cites \textcite{walther95} a couple times, similar stuff covered. About
-dating relationships.
+\noindent These aren't exactly exciting, but this is the kind of
+groundwork that's needed to get the exciting results of
+\textcite{kalman13} below.
 
-\textbf{\fullcite{kalman13}}
+\noindent \hangindent=7ex \fullcite{kalman13}
 
-Really interesting!! Cites \textcite{walther95}. About generalized
-chronemics and the causal relationship between personality and pacing of
-conversations.
+This study evaluates a measure called interpost pause. It builds on the
+findings of \textcite{kalman11} and SIP theory by using chronemics as
+nonverbal cues that participants use in place of normal face to face
+cues. \textcite{kalman13} found that people who were more extraverted
+``exhibited shorter interpost pauses,'' and that pairs who trusted each
+other less had longer interpost pauses (p.~16). Interestingly, the
+correlation with trust was stronger than the correlation with
+extraversion.
 
-\textbf{\fulcite{heston17}}
-
-\hypertarget{purdue-library-wishlist}{%
-\subsection{Purdue Library wishlist}\label{purdue-library-wishlist}}
-
-\fullcite{ling11}
-
-For \textcite{doring09} mostly.
+Unfortunately, it's hard to know why these two results exist. For trust,
+\textcite{kalman13} suggests it may come down to the assumption that
+lying is harder than telling the truth (and therefore should take
+longer), but it may also be that people just prefer their conversation
+partner to respond quickly and the dislike of slow responses bleeds into
+their trust for the person. For extraversion, \textcite{kalman13}
+suggests this is mostly because extraverted people talk more and with
+less hesitation than intraverted people. Essentially, the same thing
+happens in face to face communication because that's just the way people
+are.
 
 \printbibliography
 
